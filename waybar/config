@@ -95,9 +95,9 @@
     "network": {
         "interval": 5,
         "format-wifi": "  ({signalStrength}%)", // Icon: wifi
-        "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
+        "format-ethernet": "  {essid}: {ipaddr}/{cidr}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
-        "tooltip-format": "{ifname}: {ipaddr}"
+        "tooltip-format": "{essid}: {ipaddr}"
     },
 
     "hyprland/window": {
