@@ -30,6 +30,7 @@
         color: white;
         background-color: red;
     }
+
 }
 
 
@@ -48,8 +49,8 @@
 
 /* The whole bar */
 #waybar {
-    background: #b6a0bd;
-    color: black;
+    background: #3D161F;
+    color: white;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 13px;
 }
@@ -179,13 +180,13 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #workspaces button.active {
     border-color: #000000;
     color: white;
-    background-color: #6c5b88;
+    background-color: #000000;
 }
 
 #workspaces button.urgent {
