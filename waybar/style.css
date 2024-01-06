@@ -10,6 +10,8 @@
  * Keyframes
  * -------------------------------------------------------------------------- */
 
+@import url("./colors.css");
+
 @keyframes blink-warning {
     70% {
         color: white;
@@ -49,8 +51,8 @@
 
 /* The whole bar */
 #waybar {
-    background: #753d1a;
-    color: white;
+    background: @background;
+    color: @purple;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 13px;
 }
