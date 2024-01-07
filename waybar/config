@@ -19,11 +19,10 @@
     "height": 30,
 
     "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/mode"
+        "hyprland/workspaces"
     ],
     "modules-center": [
-        "hyprland/window"
+        "custom/spotify"
     ],
     "modules-right": [
         "network",
@@ -119,6 +118,16 @@
             "focused": "",
             "default": ""
         }
+    },
+
+    "custom/spotify": {
+        "format": "{} ",
+        "exec": "~/.config/waybar/mediaplayer.sh",
+        "return-type": "json",
+        "on-click": "playerctl -p spotify play-pause",
+        "on-scroll-up": "playerctl -p spotify next",
+        "on-scroll-down": "playerctl -p spotify previous",
+        "exec-if": "pgrep spotfiy"
     },
 
     "pulseaudio": {

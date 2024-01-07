@@ -156,9 +156,11 @@
     /* No styles */
 }
 
-#custom-spotify {
-    color: rgb(102, 220, 105);
+.custom-spotify {
+    padding: 2px 12px;
+    margin: 0 1px;
 }
+
 
 #temperature {
     /* No styles */
