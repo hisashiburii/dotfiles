@@ -1,2 +1,5 @@
-# Dotfiles
-i dont really expect anyone to use these but feel free ig, keeping these here as a backup pretty much
+# dotfiles
+sometimes a little broken and i also forget to commit sometimes but i try
+
+# Screenshot (7 Jan)
+<img title="screenshot woah" src="./screenshot.png"/>
