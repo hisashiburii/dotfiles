@@ -95,7 +95,8 @@
         "format-wifi": "  ({signalStrength}%)", // Icon: wifi
         "format-ethernet": "  {essid}: {ipaddr}/{cidr}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
-        "tooltip-format": "{essid}: {ipaddr}"
+        "tooltip-format": "{essid}: {ipaddr}",
+        "on-click": "kitty nmtui-connect"
     },
 
     "hyprland/window": {
