@@ -22,7 +22,8 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "custom/spotify"
+        "custom/spotify",
+        "custom/lyrics"
     ],
     "modules-right": [
         "network",
@@ -129,6 +130,11 @@
         "on-scroll-up": "playerctl -p spotify next",
         "on-scroll-down": "playerctl -p spotify previous",
         "exec-if": "pgrep spotfiy"
+    },
+
+    "custom/lyrics": {
+        "format": "{} L",
+        "on-click": "kitty sptlrx"
     },
 
     "pulseaudio": {
