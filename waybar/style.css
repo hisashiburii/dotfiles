@@ -51,7 +51,7 @@
 
 /* The whole bar */
 #waybar {
-    background: transparent;
+    background: #1e1e2e;
     color: @purple;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 14px;
